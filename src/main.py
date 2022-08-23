@@ -26,5 +26,8 @@ while in_the_game:
         if player.distance(c) <20:
             print("Squish !!")
             in_the_game = False
-#Player reaches the
+#Player reaches the finish line
+
+    if player.at_the_finish_line() == True:
+        player.next_level()
 
